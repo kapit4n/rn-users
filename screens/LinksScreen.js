@@ -38,7 +38,7 @@ export default function LinksScreen() {
         { id: 3, title: "Delete Role, Status: TODO" },
         { id: 4, title: "List Roles, Status: DONE" },
         { id: 4, title: "Assign permission to role, Status: TODO" },
-        { id: 4, title: "Remove permission to role, Status: TODO" },
+        { id: 4, title: "Remove permission from role, Status: TODO" },
       ]
     },
     {
@@ -51,7 +51,15 @@ export default function LinksScreen() {
         { id: 4, title: "List Users, Status: TODO" },
         { id: 4, title: "User Profile, Status: TODO" },
         { id: 4, title: "Assign user role, Status: TODO" },
-        { id: 4, title: "Remove user role, Status: TODO" },
+        { id: 4, title: "Remove user role from user profile, Status: TODO" },
+      ]
+    },
+    {
+      id: 4,
+      name: "Auth",
+      tasks: [
+        { id: 1, title: "Login, Status: DONE" },
+        { id: 2, title: "Logout, Status: DONE" },
       ]
     },
   ]
