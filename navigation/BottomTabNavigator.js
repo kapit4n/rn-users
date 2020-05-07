@@ -18,20 +18,21 @@ export default function BottomTabNavigator({ navigation, route }) {
   return (
     <BottomTab.Navigator initialRouteName={INITIAL_ROUTE_NAME}>
       <BottomTab.Screen
-        name="Priority"
-        component={HomeScreen}
-        options={{
-          title: 'Priority',
-          tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="md-code-working" />,
-        }}
-      />
-      <BottomTab.Screen
         name="TimeLine"
         component={TimeLine}
         options={{
           title: 'Timeline',
           tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="md-code-working" />,
         }}
+      />
+      <BottomTab.Screen
+        name="Priority"
+        component={HomeScreen}
+        options={{
+          title: 'Priority',
+          tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="md-code-working" />,
+        }}
+
       />
       <BottomTab.Screen
         name="Features"
